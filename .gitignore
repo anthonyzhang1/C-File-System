@@ -1,8 +1,9 @@
-# Executable created by Makefile
-fsshell
+# Executables created by Makefile
+/fsshell
+Hexdump/hexdump
 
 # The volume created by the file system upon starting it for the first time
-SampleVolume
+/SampleVolume
 
 # Object files
 *.o
