@@ -1,6 +1,7 @@
 # C File System
 This is a basic file system that can create a volume, create and maintain a free space management system, initialize a root directory and maintain directory information, create, read, write, and delete files, display info, and so on. It probably only works on a Linux computer.
 
+The C File System was written entirely in C. \
 The C File System was created for my university's Operating Systems course in Fall 2021, where I worked on the project with 3 other students. The team's members are listed in the table below:
 
 | Student Name       | GitHub Username   |
