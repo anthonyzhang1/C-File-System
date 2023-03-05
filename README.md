@@ -1,15 +1,23 @@
-# A basic file system written in C
+# C File System
 This is a basic file system that can create a volume, create and maintain a free space management system, initialize a root directory and maintain directory information, create, read, write, and delete files, display info, and so on. It probably only works on a Linux computer.
 
-This application was created for my university's Operating Systems course, where I worked with 3 other students (Edel Jhon Cenario, Michael Wang, and Michael Widergren) to create the C file system. The shell (`fsshell.c`), the Hexdump tool, and some starting code was provided for us by the instructor.
+The C File System was created for my university's Operating Systems course in Fall 2021, where I worked on the project with 3 other students. The team's members are listed in the table below:
 
+| Student Name       | GitHub Username   |
+| :---:              | :---:             |
+| Anthony Zhang      | anthonyzhang1     |
+| Edel Jhon Cenario  | kurtina09         |
+| Michael Wang       | michaelwang07     |
+| Michael Widergren  | Mwid23            |
+
+\
 The `Documents` folder contains the prompt/instructions assigned to us by the instructor, as well as the reports and writeups we submitted. \
 The `Hexdump` folder contains a tool that lets you analyze the volume created and used by the C file system. There are examples of its usage in `Documents/Milestone 1 Writeup.pdf`, but I do not have any instructions on how to use it other than that you need to use `make run` first in the `Hexdump` folder to install the tool.
 
-#### Note: The C file system seemed to have no issues when it was last tested in 2021, but I do not recommend using it for anything other than testing or experimenting with it, in case the C file system breaks and you lose all your data in it.
+#### The C file system seems to have no issues, but I do not recommend using it for anything other than testing or experimenting with it, in case it breaks and you lose all your data in it.
 
-### The C File System's Commands:
-The usage of these commands is mostly similar to the Linux commands. \
+## The C File System's Commands:
+These commands are mostly similar to their Linux counterparts. \
 The command's syntax/synopsis can be shown by entering the command (e.g. `mv`) into the prompt. A detailed explanation and examples are provided in `Documents/Submission Writeup.pdf` starting from page 5.
 
 `ls`: Displays a list of files and subdirectories in a directory. \
